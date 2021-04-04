@@ -1,0 +1,140 @@
+header{
+    background: url(../img/header-fon.jpg);
+      background-position: center top;
+     background-repeat:no-repeat ;
+      height: 553px;
+      min-width: 1440px;
+      margin:-15px;
+}
+header img{
+    margin-top:30px;
+    height:106px;
+   
+}
+.title{
+    display: inline-block;
+    margin-top:50px;
+    background:rgba(152, 74, 53, 0.5);
+    font-size:50px;
+    color:black;
+    text-decoration: none;
+}
+.title:hover{
+    color:black;
+}
+.proect{
+    color:#4e3413;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size:20px;
+}
+.test{
+    text-decoration: none;
+    font-weight: 700;
+    color:#4e3413;
+    padding: 10px 20%;
+    background:rgba(152, 74, 53, 0.5);
+    margin-left:10%;
+    font-size:25px;
+
+}
+.test:hover{
+    background:#4e3413;
+    color:rgba(152, 74, 53, 0.5);
+}
+.name-1,.name-2,.name-3,.name-4,.name-5,.name-6{
+    display: inline-block;
+    background:rgba(142, 51, 46, 0.5);
+    padding-left:10px;
+    padding-right:10px;
+    margin-left:10px;
+    
+}
+.proect:hover{
+    color:#4e3413;
+}
+.name{
+    margin-top : 50px;
+    background: rgba(231, 203, 165, 0.52);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.name-1{
+    margin-top: 30px;
+}
+.name-2{
+    margin-top: 60px;
+}
+.name-3{
+    margin-top: 90px;
+}
+.name-4{
+    margin-top: 120px;
+}
+.name-5{
+    margin-top: 150px;
+}
+.name-6{
+    margin-top: 180px;
+}
+.imp-1,.imp-2,.imp-3,.imp-4,.imp-5,.imp-6{
+    background: rgba(104, 55, 19, 0.5);
+    margin-top: 40px;
+}
+.back{
+    padding-left:10%;
+    padding-right: 10%;
+    background:rgba(152, 74, 53, 0.5);
+}
+h3{
+    text-decoration:underline;
+    margin-bottom: 20px;
+    clear:both;
+}
+.img-left{
+    float:left;
+}
+.img-right{
+    float:right;
+}
+.text{
+    clear:both;
+}
+img{
+    height:250px;
+}
+.imp-1 .text-left{
+    clear:left;
+float:left;
+width:60%;
+}
+.imp-1{
+    padding-bottom: 400px;
+}
+.imp-3 .text-left{
+    display: inline-block;
+    width:50%;
+    float:left;
+}
+.imp-4{
+    padding-bottom:100px;
+}
+.img-5,.img-6,.img-9,.img-10{
+    height:150px;
+    margin-right: 70px;
+}
+.img-9{
+    margin-right:200px;
+}
+.imp-5 .text-left{
+    text-align: center;
+}
+.img-left{
+    margin-left: 40px;
+}
+img{
+    border-radius: 10px;
+}
