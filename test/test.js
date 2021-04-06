@@ -29,11 +29,13 @@ let view = {
         document.querySelector("#background-test-4").style.display="none";
         document.querySelector("#submitButton").style.display="none";
         document.querySelector("#nextButton").style.display="none";
-        document.querySelector("#resetButton").style.marginTop="300px";
+        document.querySelector("#resetButton").style.marginBottom="20px";
+        document.querySelector("#resetButton").style.marginTop="20px";
         let reponseFin=document.querySelector("#messageArea");
         reponseFin.style.display="none";
         let question = document.querySelector('#question');
         question.style.display="none";
+        document.querySelector(".finish-img").hidden=false;
         let reponseFinish=document.querySelector("#messageAreaFinish");
             if(localStorage.getItem('repTrue')!=undefined)
             {

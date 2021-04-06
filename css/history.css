@@ -1,3 +1,6 @@
+body{
+    font-family: Podkova!important;
+}
 header{
     background: url(../img/header-fon.jpg);
       background-position: center top;
@@ -20,7 +23,8 @@ header img{
     text-decoration: none;
 }
 .title:hover{
-    color:black;
+    color:brown;
+    background: rgba(104, 55, 19, 0.5);
 }
 .proect{
     color:#4e3413;
@@ -152,15 +156,31 @@ img{
     text-align: center;
     font-size:24px;
     text-decoration: none;
-    color:black;
-    background:brown;
 }
 .link-fixed:hover{
- background:#aa6c1a;
- color:brown;
- font-size:28px;
+
  transition-duration: 1s;
  transition-property: all;
+}
+.arrow,.arrow-hover{
+    width:80px;
+    height:auto;
+}
+.arrow-hover{
+    
+    margin-right:-6px;
+    bottom:0;
+    opacity: 0;
+}
+.arrow{
+    
+    margin-left: -80px;
+}
+
+.arrow-hover:hover{
+    transition-duration: 1s;
+    transition-property: all;
+    opacity: 1;
 }
 .test-form{
     padding-bottom: 35px;
@@ -218,4 +238,9 @@ h2{
 }
 .testFalse{
     background:crimson;
+}
+.finish-img{
+    width:60%;
+    height:auto;
+    margin-left:20%;
 }
