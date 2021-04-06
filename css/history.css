@@ -39,6 +39,7 @@ header img{
     background:rgba(152, 74, 53, 0.5);
     margin-left:10%;
     font-size:25px;
+    margin-top:-10px;
 
 }
 .test:hover{
@@ -52,6 +53,10 @@ header img{
     padding-right:10px;
     margin-left:10px;
     
+}
+.name-1:hover,.name-2:hover,.name-3:hover,.name-4:hover,.name-5:hover,.name-6:hover{
+    background:#4e3413;
+    color:rgba(152, 74, 53, 0.5);
 }
 .proect:hover{
     color:#4e3413;
@@ -137,4 +142,54 @@ width:60%;
 }
 img{
     border-radius: 10px;
+}
+.test-form{
+    padding-bottom: 35px;
+    background: rgba(104, 55, 19, 0.4);
+    height: 0px;
+    display: none;
+    transition: 1s;
+    margin-top:50px;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-top: 100px;
+    font-size: 42px;
+    text-decoration: underline;
+}
+.test-form div input[type="button"]{
+    font-weight: 700;
+    color:#4e3413;
+    padding: 10px 5%;
+    background:rgba(152, 74, 53, 0.5);
+    
+    font-size:25px;
+}
+.test-form input[type="radio"]{
+    margin-left: 20px;
+}
+#question{
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    margin:30px 0px;
+}
+#messageArea{
+    margin-left:20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.info-text{
+    margin:10px 0px 10px 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+#messageAreaFinish{
+    font-size:50px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
 }
