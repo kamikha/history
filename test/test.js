@@ -49,7 +49,7 @@ let view = {
         resetButton.setAttribute('class','resetButton1');
     }
     };
-    view.printfMessage('ayf');
+    view.printfMessage('Варианты ответов:');
   let model = {
       reponsesTrue:truerep,
       reponses :[3,2,1,2,4,1,3,4,3,1,2,3,1,2,4,1],
@@ -119,12 +119,12 @@ let view = {
         let reponseClass=('background-test-'+rep);
             if(rep==this.reponses[this.quantityReponses]){
                 view.testTrue(reponseClass);
-                view.printfMessage('красавчик');
+                view.printfMessage('Молодец, правильный ответ');
                 
                 return true;
             }
         view.testFalse(reponseClass);
-        view.printfMessage('чмо правильный ответ:'+this.reponses[this.quantityReponses]);
+        view.printfMessage('Неверно, правильный ответ:'+this.reponses[this.quantityReponses]);
         return false;
       },
       parseReponse:function(per){
@@ -249,7 +249,7 @@ let view = {
             model.isFinal();
         model.quantityReponsesPlus();
         model.nextquestion();
-        view.printfMessage('ayf');
+        view.printfMessage('Варианты ответов:');
         model.submitState[model.get_quenttityReponses()] =false;
         let radioCheckTrue=document.querySelectorAll('.testTrue');
         let radioCheckFalse=document.querySelectorAll('.testFalse');
@@ -341,6 +341,7 @@ document.querySelector(".test").onclick = (event)=>{
    
     event.preventDefault();
     document.location.href="#test-form";
+    
     forma.style.display = "block";
     forma.hidden=false;
     let hid = document.querySelector(".hid-form");
@@ -394,3 +395,25 @@ link();
 document.querySelector(".name-1").onclick=function(){
     document.location.href="#imp-1";  
 }
+
+$(function(){
+    $("a[href^='#']").click(function(){
+            var _href = $(this).attr("href");
+            $("html, body").animate({scrollTop: 0+"px"});
+            return false;
+    });
+});
+/*
+$(function(){
+
+    $('.some_link').on('click', function(e){
+        let _href = $(this).attr("href");
+      // let href =  _href.replace(/#/g,'');
+     //  let hr = "."+href;
+      //  console.log($(_href).offset().top);
+      console.log($(_href).offset().top);
+      $('html,body').stop().animate({ scrollTop: $(_href).offset().top },3000);
+      e.preventDefault();
+    });
+    
+    });*/

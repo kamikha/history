@@ -143,6 +143,25 @@ width:60%;
 img{
     border-radius: 10px;
 }
+.link-fixed{
+    position: fixed;
+    bottom:30px;
+    right: 50px;
+    padding:20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size:24px;
+    text-decoration: none;
+    color:black;
+    background:brown;
+}
+.link-fixed:hover{
+ background:#aa6c1a;
+ color:brown;
+ font-size:28px;
+ transition-duration: 1s;
+ transition-property: all;
+}
 .test-form{
     padding-bottom: 35px;
     background: rgba(104, 55, 19, 0.4);
@@ -192,4 +211,11 @@ h2{
     font-weight: 600;
     font-style: italic;
     text-align: center;
+}
+.testTrue{
+    background:chartreuse;
+
+}
+.testFalse{
+    background:crimson;
 }
